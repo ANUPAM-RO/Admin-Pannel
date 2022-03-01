@@ -1,5 +1,7 @@
 import React from 'react'
 import"./info.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 const Info = () => {
   return (
     <div className='info'>
@@ -8,7 +10,7 @@ const Info = () => {
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">$2,1124</span>
                 <span className="featuredMoneyRate">-11.4
-                <img src="arrow-down-solid.svg" alt="" />
+                <FontAwesomeIcon icon={faArrowDown} className='feturedIcon negative'/>
                 </span>
             </div>
             <span className="featuredSub">
@@ -21,7 +23,7 @@ const Info = () => {
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">$5,1124</span>
                 <span className="featuredMoneyRate">-1.4
-                <img src="arrow-down-solid.svg" alt="" />
+                <FontAwesomeIcon icon={faArrowDown} className='feturedIcon negative'/>
                 </span>
             </div>
             <span className="featuredSub">
@@ -34,7 +36,7 @@ const Info = () => {
             <div className="featuredMoneyContainer">
                 <span className="featuredMoney">$2,1724</span>
                 <span className="featuredMoneyRate">+5.4
-                <img src="arrow-up-solid.svg" alt="" />
+                <FontAwesomeIcon icon={faArrowUp} className='feturedIcon'/>
                 </span>
             </div>
             <span className="featuredSub">
