@@ -1,5 +1,8 @@
 import React from 'react'
-import "./sidebar.css"
+import "./sidebar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowTrendUp, faCalculator, faChartLine, faHouse, faMailBulk, faManatSign, faReceipt, faRightLeft } from '@fortawesome/free-solid-svg-icons';
+import { faFaceSmile, faMessage, faUser } from '@fortawesome/free-regular-svg-icons';
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -8,15 +11,15 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Dashboard</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem active">
-                    <img src="house-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faHouse} className='sidebarIcons'/>
                         Home
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon  icon={faArrowTrendUp}  className='sidebarIcons'/>
                         Analytics
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faChartLine} className='sidebarIcons'/>
                         Sales
                     </li>
                 </ul>
@@ -26,19 +29,20 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">
-                    <img src="house-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faUser} className='sidebarIcons'/>
                         Users
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faCalculator} className='sidebarIcons'/>
                         Products
+                        <FontAwesomeIcon icon="fas fa-analytics" />
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faRightLeft} className='sidebarIcons'/>
                         Transactions
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faReceipt} className='sidebarIcons'/>
                         Reports
                     </li>
                 </ul>
@@ -48,15 +52,15 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Notifications</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">
-                    <img src="house-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faMailBulk} className='sidebarIcons'/>
                         Mail
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faFaceSmile} className='sidebarIcons'/>
                         Feedback
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faMessage} className='sidebarIcons'/>
                         Messages
                     </li>
                 </ul>
@@ -66,15 +70,15 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Staff</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem ">
-                    <img src="house-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faManatSign} className='sidebarIcons'/>
                         Manage
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line-solid.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faArrowTrendUp} className='sidebarIcons'/>
                         Analytics
                     </li>
                     <li className="sidebarListItem">
-                    <img src="chart-line.svg" alt="" className='sidebarIcons'/>
+                    <FontAwesomeIcon icon={faHouse} className='sidebarIcons'/>
                         Reports
                     </li>
                 </ul>
