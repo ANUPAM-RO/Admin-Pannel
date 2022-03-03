@@ -1,5 +1,5 @@
-import { useState} from 'react'
 import "./userList.css";
+import { useState} from 'react'
 import { userRows } from '../../../DummyData';
 import { DataGrid } from '@material-ui/data-grid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -50,7 +50,7 @@ const UserList = () => {
             renderCell: (params) =>{
                 return(
                     <>
-                    <Link to ={"/users/"+params.row.id}>
+                    <Link to ={"/user/"+params.row.id}>
                     <button className='userListEdit'>Edit</button>
                     </Link>
                    

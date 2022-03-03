@@ -50,6 +50,21 @@ export const UserData = [
    
   ];
 
+  export const ProductData = [
+    {
+      name: 'JAN',
+      "sales": 4000,
+    },
+    {
+        name: 'FEB',
+        "sales": 5000,
+      },
+      {
+        name: 'MAR',
+        "sales": 4500,
+      },   
+  ];
+
   export const userRows = [
     { 
       id: 1,
@@ -148,6 +163,108 @@ export const UserData = [
         email: "alex123@gmail.com",
         status: "active",
         transaction: "$123.00"
+      },
+   
+  ];
+
+  export const productRows = [
+    { 
+      id: 1,
+      name: 'iphone', 
+      img:
+      "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+      stock: 1550,
+      status: "active",
+      price: "$123.00"
+    },
+    { 
+        id: 2,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 3,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 4,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 5,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 6,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 7,
+        name: 'i phone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 8,
+        name: 'i phone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },{ 
+        id: 9,
+        name: 'i phone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 10,
+        name: 'i phone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
+      },
+      { 
+        id: 11,
+        name: 'iphone', 
+        img:
+        "https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png",
+        stock: 1550,
+        status: "active",
+        price: "$123.00"
       },
    
   ];

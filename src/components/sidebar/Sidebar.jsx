@@ -1,5 +1,6 @@
 import React from 'react'
 import "./sidebar.css";
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowTrendUp, faCalculator, faChartLine, faHouse, faMailBulk, faManatSign, faReceipt, faRightLeft } from '@fortawesome/free-solid-svg-icons';
 import { faFaceSmile, faMessage, faUser } from '@fortawesome/free-regular-svg-icons';
@@ -11,8 +12,10 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Dashboard</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem active">
+                        <Link to="/" className='link'>
                     <FontAwesomeIcon icon={faHouse} className='sidebarIcons'/>
                         Home
+                        </Link>
                     </li>
                     <li className="sidebarListItem">
                     <FontAwesomeIcon  icon={faArrowTrendUp}  className='sidebarIcons'/>
@@ -29,13 +32,17 @@ const Sidebar = () => {
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
                     <li className="sidebarListItem">
+                        <Link to="/users" className='link'>
                     <FontAwesomeIcon icon={faUser} className='sidebarIcons'/>
                         Users
+                        </Link>
                     </li>
                     <li className="sidebarListItem">
+                        <Link to="/products" className='link'>
                     <FontAwesomeIcon icon={faCalculator} className='sidebarIcons'/>
                         Products
-                        <FontAwesomeIcon icon="fas fa-analytics" />
+                        </Link>
+                    
                     </li>
                     <li className="sidebarListItem">
                     <FontAwesomeIcon icon={faRightLeft} className='sidebarIcons'/>
