@@ -8,6 +8,7 @@ import User from './components/pages/user/User';
 import Newuser from './components/pages/newUser/Newuser';
 import ProductList from './components/pages/productList/ProductList';
 import Product from './components/pages/product/Product';
+import NewProduct from './components/pages/newProduct/NewProduct';
 function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ function App() {
       <Route path='/newuser' element={<Newuser/>}/>
       <Route path='/products' element={<ProductList/>}/>
       <Route path='/product/:productId' element={<Product/>}/>
-      <Route path='/newproduct' element={<Newuser/>}/>
+      <Route path='/newproduct' element={<NewProduct/>}/>
       </Routes>
       
       </div>

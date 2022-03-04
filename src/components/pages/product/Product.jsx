@@ -1,5 +1,7 @@
 import React from 'react'
 import "./product.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUpload } from '@fortawesome/free-solid-svg-icons'
 import Chart from "../../chart/Chart"
 import {ProductData} from "../../../DummyData";
 import { Link } from 'react-router-dom'
@@ -43,7 +45,7 @@ const Product = () => {
         </div>
         <div className="productButtom">
             <form className="productForm">
-                <div className="productFormLef">
+                <div className="productFormLeft">
                     <label >Product Name</label>
                     <input type="text" placeholder='Apple iphone'/>
                     <label>In Stock</label>
@@ -61,7 +63,7 @@ const Product = () => {
                     <div className="productUpload">
                         <img src="https://i3-prod-assets.indiaistore.com/files/uploads/products/iphone-13-pro/img-md-1632290372_5484.png" alt="" className="productUploadImg" />
                         <label for="file">
-
+                        <FontAwesomeIcon icon={faUpload} className="productUpdateIcon" />
                         </label>
                         <input type="file" id="file" style={{display: "none"}}/> 
                     </div>
